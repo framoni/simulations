@@ -1,3 +1,4 @@
+import time
 from itertools import combinations
 from math import atan2, degrees, dist, sqrt
 import turtle
@@ -70,4 +71,5 @@ def main():
 
 
 if __name__ == '__main__':
+    time.sleep(10)
     main()
